@@ -1,38 +1,210 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header */
+header {
+  height: 3vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.header-logo {
+  font-weight: bolder;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 7%;
+}
+
+.menuLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menuRight {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.HowtoUse-button {
+  border: 0;
+  border-radius: 10px;
+}
+
+.dropbtn {
+  border: 0;
+  border-radius: 10px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  padding: 0;
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Main */
+.section-wrapper-banner {
+  height: 50vh;
+}
+
+.inner-wrapper {
+  padding-left: 20%;
+}
+
+.inner-wrapper-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 10vh;
+  width: 30%;
+  padding-top: 25vh;
 }
 
-.App-link {
-  color: #61dafb;
+.inner-wrapper-title p {
+  margin-left: -30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inner-wrapper-title p:after {
+  content: "";
+  display: block;
+  width: 25px;
+  border-bottom: 2px solid #616161;
+}
+
+.inner-wrapper-content {
+  background-color: rgb(182, 182, 182);
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1.2fr 1fr 0.5fr;
+  align-items: center;
+  height: 8vh;
+  width: 80%;
+}
+
+.inner-wrapper-content p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.inner-wrapper-content p.line {
+  border-right: 1px solid black;
+}
+
+.section-wrapper-story {
+  height: 60vh;
+  padding-left: 5%;
+}
+
+.story-title-wrapper {
+  height: 10vh;
+  padding-top: 5vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: end;
+}
+
+.story-title-wrapper h1 {
+  height: 10vh;
+  margin: 0;
+}
+
+.story-title-wrapper h1:after {
+  content: "";
+  display: block;
+  width: 100px;
+  border-bottom: 3px solid #616161;
+  margin-top: 10px;
+}
+
+.story-title-wrapper button {
+  height: 2.5vh;
+  background-color: white;
+  border: 0;
+}
+
+.story-title-wrapper img {
+  height: 2.5vh;
+}
+
+.story-content-wrapper {
+  height: 45vh;
+}
+
+.story-content-wrapper picture {
+  display: flex;
+  height: 30vh;
+  padding-top: 5vh;
+}
+
+.story-content-wrapper p {
+  display: flex;
+  height: 10vh;
+}
+
+/* Footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 5vh;
+  padding-left: 5%;
+}
+
+.footer-logo {
+  font-weight: bolder;
+}
+
+.footer-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-menu-title {
+  font-weight: bolder;
+}
+
+.footer-menu-submenu {
+  padding-top: 10px;
+}
+
+.footer-menu-submenu a {
+  display: block;
+}
+
+.footer-menu-submenu p {
+  margin: 0;
+}
+
+.footer-contact-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer button {
+  border: 0;
+  border-radius: 30px;
+  margin-right: 5px;
 }
