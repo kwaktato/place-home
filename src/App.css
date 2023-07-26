@@ -75,39 +75,42 @@ header {
 /* Main */
 .section-wrapper-banner {
   height: 50vh;
+  background-color: powderblue;
 }
 
 .inner-wrapper {
   display: grid;
-  align-content: center;
+  row-gap: 5vh;
 }
 
-.inner-wrapper-title {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  height: 10vh;
-  width: 30%;
-  padding-top: 25vh;
+.inner-wrapper-title h1 {
+  text-align: center;
+  margin: 0;
 }
 
 .inner-wrapper-content {
   background-color: rgb(182, 182, 182);
   border-radius: 30px;
-  display: grid;
-  grid-template-columns: 1.3fr 1fr 1.2fr 1fr 0.5fr;
-  align-items: center;
+  margin: 0 auto;
   height: 8vh;
-  width: 80%;
+  width: 40%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
 .inner-wrapper-content p {
   margin: 0;
-  padding-left: 10px;
+  align-self: center;
+  padding-left: 8%;
 }
 
-.inner-wrapper-content p.line {
-  border-right: 1px solid black;
+.inner-wrapper-content button {
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: rgb(182, 182, 182);
+  height: 6vh;
+  width: 6vh;
+  place-self: center;
 }
 
 .section-wrapper-story {
