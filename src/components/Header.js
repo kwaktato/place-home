@@ -7,6 +7,7 @@ const Header = () => {
         </div>
         <div className="menu">
           <div className="menuLeft">
+            <a href="/Community">Exhibitions</a>
             <div className="dropdown">
               <span>Categories</span>
               <div className="dropdown-content">
