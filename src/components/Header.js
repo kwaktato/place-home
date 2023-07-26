@@ -10,11 +10,10 @@ const Header = () => {
             <div className="dropdown">
               <span>Categories</span>
               <div className="dropdown-content">
-                <a href="/Categories/Design">디자인 전시</a>
-                <a href="/Categories/Experience">체험형 전시</a>
-                <a href="/Categories/Installation">설치 미술 전시</a>
-                <a href="/Categories/Photo">포토 전시</a>
-                <a href="/Categories/Painting">동양화/서양화</a>
+                <a href="/Categories/Design">디자인</a>
+                <a href="/Categories/Experience">회화</a>
+                <a href="/Categories/Installation">사진</a>
+                <a href="/Categories/Photo">체험</a>
               </div>
             </div>
             <a href="/Community">Community</a>
