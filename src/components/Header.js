@@ -22,7 +22,6 @@ const Header = () => {
             <a href="/Magazine">Place magazine</a>
           </div>
           <div className="menuRight">
-            <button className="HowtoUse-button">How to use?</button>
             <div className="dropdown">
               <button className="dropbtn">계정</button>
               <div className="dropdown-content">

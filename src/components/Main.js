@@ -6,29 +6,13 @@ const Main = () => {
           <picture>banner</picture>
           <div className="inner-wrapper">
             <div className="inner-wrapper-title">
-              <h1>FIND</h1>
-              <p>exhibition</p>
+              <h1>VISIT YOUR EXHIBIT</h1>
             </div>
             <div className="inner-wrapper-content">
-              <p className="line">
+              <p>
                 Location
                 <br />
                 선호하는 도시 설정
-              </p>
-              <p className="line">
-                Story upload
-                <br />
-                스토리 업로드
-              </p>
-              <p className="line">
-                Reviews
-                <br />
-                전시 리뷰 남기기
-              </p>
-              <p>
-                Chats
-                <br />
-                채팅하기
               </p>
               <button>검색</button>
             </div>
