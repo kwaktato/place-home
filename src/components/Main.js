@@ -2,7 +2,7 @@ const Main = () => {
   return (
     <main>
       <div className="main">
-        <section className="section-wrapper section-wrapper-banner">
+        <section className="section-wrapper-banner">
           <picture>banner</picture>
           <div className="inner-wrapper">
             <div className="inner-wrapper-title">
@@ -18,7 +18,7 @@ const Main = () => {
             </div>
           </div>
         </section>
-        <section className="section-wrapper section-wrapper-story section-wrapper-recent">
+        <section className="section-wrapper-story section-wrapper-recent">
           <div className="story-title-wrapper">
             <h1>
               유저들의 최근 전시회
@@ -42,7 +42,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="section-wrapper section-wrapper-story section-wrapper-close">
+        <section className="section-wrapper-story section-wrapper-close">
           <div className="story-title-wrapper">
             <h1>
               근처 인기있는 전시회
@@ -66,7 +66,7 @@ const Main = () => {
             </p>
           </div>
         </section>
-        <section className="section-wrapper section-wrapper-story section-wrapper-current">
+        <section className="section-wrapper-story section-wrapper-current">
           <div className="story-title-wrapper">
             <h1>
               현재 가장 인기있는 전시회
