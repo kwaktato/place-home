@@ -3,7 +3,7 @@ const Header = () => {
     <header>
       <div className="header">
         <div className="header-logo">
-          <div>PLACE.</div>
+          <a>PLACE.</a>
         </div>
         <div className="menu">
           <div className="menuLeft">
@@ -22,12 +22,7 @@ const Header = () => {
             <a href="/Magazine">Place magazine</a>
           </div>
           <div className="menuRight">
-            <div className="dropdown">
-              <button className="dropbtn">Log in</button>
-              <div className="dropdown-content">
-                <a>Logout</a>
-              </div>
-            </div>
+            <a href="/login">Login</a>
           </div>
         </div>
       </div>
