@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <div className="menuRight">
             <div className="dropdown">
-              <button className="dropbtn">계정</button>
+              <button className="dropbtn">Log in</button>
               <div className="dropdown-content">
                 <a>Logout</a>
               </div>
