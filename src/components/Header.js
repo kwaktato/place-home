@@ -25,8 +25,6 @@ const Header = () => {
             <div className="dropdown">
               <button className="dropbtn">계정</button>
               <div className="dropdown-content">
-                <a href="/Account">Account</a>
-                <a>Help Center</a>
                 <a>Logout</a>
               </div>
             </div>
