@@ -17,7 +17,7 @@ header {
 .header {
   display: grid;
   grid-template-columns: 20% 80%;
-  height: 10vh;
+  height: 8vh;
   align-items: center;
 }
 
@@ -37,11 +37,6 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
-}
-
-.dropbtn {
-  border: 0;
-  border-radius: 10px;
 }
 
 .dropdown {
@@ -75,7 +70,6 @@ header {
 /* Main */
 .section-wrapper-banner {
   height: 50vh;
-  background-color: powderblue;
 }
 
 .inner-wrapper {
@@ -90,7 +84,7 @@ header {
 
 .inner-wrapper-content {
   background-color: rgb(182, 182, 182);
-  border-radius: 30px;
+  border-radius: 50px;
   margin: 0 auto;
   height: 8vh;
   width: 40%;
