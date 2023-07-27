@@ -9,12 +9,11 @@ const Main = () => {
               <h1>VISIT YOUR EXHIBIT</h1>
             </div>
             <div className="inner-wrapper-content">
-              <p>
-                Location
-                <br />
-                선호하는 도시 설정
-              </p>
-              <button>검색</button>
+              <div className="inner-wrapper-content-wrapper">
+                <p className="location">Location</p>
+                <p className="setting">선호하는 도시 설정</p>
+              </div>
+              <img src={require("../img/search.jpg")} />
             </div>
           </div>
         </section>
@@ -26,10 +25,7 @@ const Main = () => {
               스토리 모아보기
             </h1>
             <button>
-              <img
-                src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F15%2Fad%2F33%2F15ad338a4795af73ba09c3949a819526.jpg&type=sc960_832"
-                alt="alt"
-              />
+              <img src={require("../img/bx_bxs-map-pin.png")} />
               Show On Map
             </button>
           </div>
