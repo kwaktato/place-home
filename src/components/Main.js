@@ -3,7 +3,6 @@ const Main = () => {
     <main>
       <div className="main">
         <section className="section-wrapper-banner">
-          <picture>banner</picture>
           <div className="inner-wrapper">
             <div className="inner-wrapper-title">
               <h1>VISIT YOUR EXHIBIT</h1>
@@ -24,66 +23,51 @@ const Main = () => {
               <br />
               스토리 모아보기
             </h1>
-            <button>
-              <img src={require("../img/bx_bxs-map-pin.png")} />
-              Show On Map
-            </button>
+            <div className="story-title-wrapper-map">
+              <img src={require("../img/map_btn.png")} />
+            </div>
           </div>
-          <div className="story-content-wrapper">
-            <picture>사진</picture>
-            <p>
-              user name
-              <br />
-              전시회 이름 혹은 위치
-            </p>
-          </div>
-        </section>
-        <section className="section-wrapper-story section-wrapper-close">
-          <div className="story-title-wrapper">
-            <h1>
-              근처 인기있는 전시회
-              <br />
-              스토리 몰아보기
-            </h1>
-            <button>
-              <img
-                src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F15%2Fad%2F33%2F15ad338a4795af73ba09c3949a819526.jpg&type=sc960_832"
-                alt="alt"
-              />
-              Show On Map
-            </button>
-          </div>
-          <div className="story-content-wrapper">
-            <picture>사진</picture>
-            <p>
-              user name
-              <br />
-              전시회 이름 혹은 위치
-            </p>
-          </div>
-        </section>
-        <section className="section-wrapper-story section-wrapper-current">
-          <div className="story-title-wrapper">
-            <h1>
-              현재 가장 인기있는 전시회
-              <br />
-              스토리 몰아보기
-            </h1>
-            <button>
-              <img
-                src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F15%2Fad%2F33%2F15ad338a4795af73ba09c3949a819526.jpg&type=sc960_832"
-                alt="alt"
-              />
-              Show On Map
-            </button>
-          </div>
-          <div className="story-content-wrapper">
-            <picture>사진</picture>
-            <p>
-              user name
-              <br />
-              전시회 이름 혹은 위치
-            </p>
+          <div className="story-content">
+            <div className="story-content-wrapper">
+              <div className="story-content-heart">
+                <img src={require("../img/heart.png")} />
+              </div>
+              <div className="story-content-account">
+                <img src={require("../img/제리.jpg")} />
+                <p className="name">감자</p>
+                <p className="location">용산구</p>
+              </div>
+            </div>
+            <div className="story-content-wrapper">
+              <div className="story-content-heart">
+                <img src={require("../img/heart.png")} />
+              </div>
+              <div className="story-content-account">
+                <img src={require("../img/제리.jpg")} />
+                <p className="name">감자</p>
+                <p className="location">용산구</p>
+              </div>
+            </div>
+            <div className="story-content-wrapper">
+              <div className="story-content-heart">
+                <img src={require("../img/heart.png")} />
+              </div>
+              <div className="story-content-account">
+                <img src={require("../img/제리.jpg")} />
+                <p className="name">감자</p>
+                <p className="location">용산구</p>
+              </div>
+            </div>
+            <div className="story-content-wrapper">
+              <div className="story-content-heart">
+                <img src={require("../img/heart.png")} />
+              </div>
+              <div className="story-content-account">
+                <img src={require("../img/제리.jpg")} />
+                <p className="name">감자</p>
+                <p className="location">용산구</p>
+              </div>
+            </div>
           </div>
         </section>
       </div>
