@@ -89,13 +89,16 @@ header {
 
 /* Main */
 .section-wrapper-banner {
-  height: 50vh;
-  background-color: palegoldenrod;
+  height: 57vh;
+  background-image: url("img/banner_img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .inner-wrapper {
   display: grid;
   row-gap: 5vh;
+  padding-top: 15vh;
 }
 
 .inner-wrapper-title h1 {
@@ -142,53 +145,97 @@ header {
 
 .section-wrapper-story {
   height: 60vh;
-  padding-left: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10vh;
 }
 
 .story-title-wrapper {
-  height: 10vh;
-  padding-top: 5vh;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  align-items: end;
+  height: 15vh;
+  padding-bottom: 8vh;
 }
 
 .story-title-wrapper h1 {
   height: 10vh;
   margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  color: #484848;
+  display: grid;
+  justify-items: start;
 }
 
 .story-title-wrapper h1:after {
   content: "";
   display: block;
-  width: 100px;
-  border-bottom: 3px solid #616161;
-  margin-top: 15px;
+  width: 140px;
+  border-bottom: 6px solid #484848;
+  margin-top: 5vh;
+  border-radius: 3px;
 }
 
-.story-title-wrapper button {
-  height: 2.5vh;
-  background-color: white;
-  border: 0;
+.story-title-wrapper-map {
+  display: grid;
+  justify-items: end;
 }
 
-.story-title-wrapper img {
-  height: 2.5vh;
+.story-title-wrapper-map img {
+  height: auto;
+  width: auto;
+}
+
+.story-content {
+  height: 37vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 3%;
 }
 
 .story-content-wrapper {
-  height: 45vh;
+  background-image: url("img/story_bgr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 37vh;
+  border-radius: 5%;
+  position: relative;
 }
 
-.story-content-wrapper picture {
-  display: flex;
-  height: 30vh;
-  padding-top: 5vh;
+.story-content-heart img {
+  height: 8%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 
-.story-content-wrapper p {
-  display: flex;
-  height: 10vh;
+.story-content-account {
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+}
+
+.story-content-account img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.story-content-account p {
+  margin: 0;
+}
+
+.story-content-account .name {
+  font-weight: 700;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 7px;
+}
+
+.story-content-account .location {
+  font-weight: 500;
+  font-size: 13px;
+  color: #c4c4c4;
+  margin-top: 5px;
 }
 
 /* Footer */
@@ -197,6 +244,7 @@ header {
   grid-template-columns: 1fr 2fr;
   padding-top: 5vh;
   padding-left: 5%;
+  background-color: #9a9a9a;
 }
 
 .footer-logo {
