@@ -2,8 +2,10 @@ const Header = () => {
   return (
     <header>
       <div className="header">
-        <div className="header-logo">
-          <a href="/">Place</a>
+        <div className="header-logo-wrapper">
+          <a href="/" className="header-logo">
+            Place
+          </a>
           <a href="/" className="header-logo-dot">
             .
           </a>
