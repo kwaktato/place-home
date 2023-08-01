@@ -1,0 +1,68 @@
+/* 3D 애니메이션 */
+.story-content-3D {
+  height: 37vh;
+  width: min-content;
+
+  display: inline-grid;
+  transition: transform 0.7s;
+  transform: perspective(900px) rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.story-content-3D:hover {
+  transform: perspective(900px) rotateY(180deg);
+}
+
+.story-content-front {
+  backface-visibility: hidden;
+}
+
+.story-content-back {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+/* 3D 애니메이션 */
+
+.story-content-front {
+  position: relative;
+}
+
+.bgrimg {
+  height: 37vh;
+  border-radius: 5%;
+}
+
+.heartimg {
+  height: 8%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.story-content-back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.story-content-back img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.story-content-back .name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 7px;
+}
+
+.story-content-back .location {
+  margin: 0;
+  font-weight: 500;
+  font-size: 13px;
+  color: #c4c4c4;
+  margin-top: 5px;
+}
